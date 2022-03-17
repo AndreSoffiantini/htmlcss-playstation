@@ -1,13 +1,66 @@
+/* region Common */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* endregion Common */
+
+
 /* #region Debug */
 
+.debug .container {
+    background-color: cornflowerblue;
+    height: 100%;
+}
+
+.debug .row {
+    height: 100%;
+}
+
+.debug [class^="col-"] {
+    height: 100%;
+    background-color: rgba(128, 255, 0, 0.479);
+    border: 1px solid black;
+}
+
+.debug [class$="_top"] {
+    height: 15%;
+}
+
+.debug [class$="_bottom"] {
+    height: 85%;
+}
+
+.debug #site_header {
+    height: 150px;
+}
+
 .debug .header_top {
-    height: 30px;
     background-color: burlywood;
 }
 
 .debug .header_bottom {
-    height: 60px;
     background-color: coral
+}
+
+.debug section {
+    height: 500px;
+    background-color: darkgray;
+    margin-bottom: 2rem;
+}
+
+.debug [class^="slidebar_"] {
+    height: 150px;
+}
+
+.debug [class^="slidebar_"] .row {
+    height: 50%;
+}
+
+.debug .ps5_top {
+    background-color: coral;
 }
 
 
