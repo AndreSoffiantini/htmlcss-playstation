@@ -1,0 +1,14 @@
+/* #region Debug */
+
+.debug .header_top {
+    height: 30px;
+    background-color: burlywood;
+}
+
+.debug .header_bottom {
+    height: 60px;
+    background-color: coral
+}
+
+
+/* #endregion Debug */
