@@ -10,6 +10,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 
 /* endregion Common */
 
@@ -95,6 +99,10 @@
     display: contents;
 }
 
+.mt_10 {
+    margin-top: 10rem;
+}
+
 
 /* #endregion Utilities */
 
@@ -115,18 +123,14 @@
 /* #region jumbotron */
 
 .jumbotron {
-    height: 800px;
-    background-image: url(../img/returnal-listing-thumb-01-ps5.jpg);
+    height: 650px;
+    background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 
 /* #endregion jumbotron */
-
-.slidebar_6 {
-    height: 5rem;
-}
 
 .slidebar_6 img {
     border-radius: 1rem;
