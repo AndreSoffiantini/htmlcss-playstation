@@ -14,6 +14,10 @@ h2 {
     font-size: 3rem;
 }
 
+.card a {
+    width: fit-content;
+}
+
 
 /* endregion Common */
 
@@ -138,6 +142,12 @@ h2 {
 
 .slidebar_6 img {
     border-radius: 1rem;
+}
+
+.it_takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
