@@ -121,6 +121,12 @@ h2 {
     height: 2rem;
 }
 
+.navbar .dropdown-menu img {
+    width: 3rem;
+    aspect-ratio: 0.8;
+    align-self: center;
+}
+
 
 /* #endregion #site_header */
 
