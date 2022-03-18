@@ -4,6 +4,7 @@
     --light_muted: #D9DADC;
     --secondary_dark: #363636;
     --warning_dark: #CD3D0F;
+    --secondary_darker: #1F1F1F;
 }
 
 * {
@@ -12,6 +13,10 @@
 
 h2 {
     font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
 }
 
 .card a {
@@ -99,6 +104,10 @@ h2 {
     background-color: var(--warning_dark);
 }
 
+.bg_secondary_darker {
+    background-color: var(--secondary_darker);
+}
+
 .display_contents {
     display: contents;
 }
@@ -146,7 +155,8 @@ h2 {
 
 /* #endregion jumbotron */
 
-.slidebar_6 img {
+.slidebar_6 img,
+.new_release img {
     border-radius: 1rem;
 }
 
