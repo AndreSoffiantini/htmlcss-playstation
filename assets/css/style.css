@@ -7,6 +7,8 @@
     --secondary_darker: #1F1F1F;
     --secondary_light: #BEBCBB;
     --secondary_lighter: #D9DADC;
+    --primary_darker: #161C3B;
+    --primary_dark: #00439C;
 }
 
 * {
@@ -116,6 +118,14 @@ h3 {
 
 .bg_secondary_lighter {
     background-color: var(--secondary_lighter);
+}
+
+.bg_primary_dark {
+    background-color: var(--primary_dark);
+}
+
+.bg_primary_darker {
+    background-color: var(--primary_darker);
 }
 
 .display_contents {
