@@ -189,3 +189,14 @@ h3 {
 
 
 /* #endregion #site_main */
+
+
+/* #region #site_footer */
+
+#site_footer .ps_logo {
+    filter: brightness(0) invert(1);
+    width: 6rem;
+}
+
+
+/* #endregion #site_footer */
