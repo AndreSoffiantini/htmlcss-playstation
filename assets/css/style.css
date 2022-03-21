@@ -5,6 +5,8 @@
     --secondary_dark: #363636;
     --warning_dark: #CD3D0F;
     --secondary_darker: #1F1F1F;
+    --secondary_light: #BEBCBB;
+    --secondary_lighter: #D9DADC;
 }
 
 * {
@@ -108,6 +110,14 @@ h3 {
     background-color: var(--secondary_darker);
 }
 
+.bg_secondary_light {
+    background-color: var(--secondary_light);
+}
+
+.bg_secondary_lighter {
+    background-color: var(--secondary_lighter);
+}
+
 .display_contents {
     display: contents;
 }
@@ -146,10 +156,11 @@ h3 {
 /* #region jumbotron */
 
 .jumbotron {
-    height: 650px;
+    height: 800px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
