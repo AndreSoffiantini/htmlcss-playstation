@@ -27,6 +27,13 @@ h3 {
     width: fit-content;
 }
 
+[class*="trademark"],
+[class*="registered"],
+[class*="copyright"] {
+    font-size: 40%;
+    transform: translate(0, -100%);
+}
+
 
 /* endregion Common */
 
@@ -177,6 +184,7 @@ h3 {
 /* #endregion jumbotron */
 
 .slidebar_6 img,
+.slidebar_6 .card,
 .new_release img {
     border-radius: 1rem;
 }
